@@ -1,6 +1,6 @@
 # icarocamelo.github.io
 
-Personal portfolio site for Icaro Ramon Veras Camelo.
+Personal portfolio site for Icaro Camelo.
 
 Plain HTML + CSS, no build step. Hosted on GitHub Pages.
 
