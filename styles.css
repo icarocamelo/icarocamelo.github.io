@@ -273,6 +273,43 @@ section h2 {
   align-self: flex-start;
 }
 
+/* ── Badge & sub-list ── */
+
+.badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+.sub-list {
+  list-style: none;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.sub-list li {
+  font-size: 0.8rem;
+  color: var(--muted);
+  padding-left: 1rem;
+  position: relative;
+}
+
+.sub-list li::before {
+  content: '↳';
+  position: absolute;
+  left: 0;
+  color: var(--border);
+}
+
 /* ── Research ── */
 
 .research-list {
